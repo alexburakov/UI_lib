@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 16px;
   font-weight: 400;
@@ -21,6 +25,9 @@ body {
   min-width: 1100px;
   height: auto;
   overflow-x: hidden;
+
+  background-color: #090a1a;
+  color: #fff;
 }
 
 ul {
@@ -33,5 +40,8 @@ img {
 
 button {
   outline: none !important;
+  border: none;
   cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
 }
