@@ -74,23 +74,53 @@
 
         <section id="dropdown" class="section">
           <h2 class="title">3. Выпадающие меню</h2>
-          <span class="link dropdown">Выпадающее меню</span>
+          <div class="dropdown">
+            <span
+              class="link"
+              easy-toggle="#drop-menu"
+              easy-class="active"
+              easy-rcoe
+              >Выпадающее меню</span
+            >
+            <div id="drop-menu" class="dropdown__drop">
+              <a href="#" class="dropdown-item">Первый элемент меню</a>
+              <a href="#" class="dropdown-item">Второй элемент меню</a>
+              <a href="#" class="dropdown-item">Третий элемент меню</a>
+            </div>
+          </div>
         </section>
 
         <section id="chekbox" class="section">
           <h2 class="title">4. Checkbox, switch</h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ducimus
-          labore incidunt ea dolores, tempore id blanditiis a suscipit nisi.
-          Explicabo quod voluptatem accusamus facilis cumque rem earum id
-          accusantium.
+
+          <div>
+            <div class="switch">
+              <input type="checkbox" name="switch1" id="switch1" />
+              <label class="switch__label" for="switch1">Текст свитча</label>
+            </div>
+          </div>
+
+          <div>
+            <div class="switch">
+              <input
+                type="checkbox"
+                name="switch2"
+                id="switch2"
+                disabled
+                checked
+              />
+              <label class="switch__label" for="switch2">Текст свитча</label>
+            </div>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" name="check1" id="check1" />
+            <label class="checkbox__label" for="check1">Текст чекбокса</label>
+          </div>
         </section>
 
         <section id="input" class="section">
           <h2 class="title">5. Поля ввода</h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-          consequuntur voluptate ea qui nihil, hic molestiae accusantium ex
-          exercitationem laboriosam doloremque aliquid eveniet iure excepturi
-          quaerat id deserunt dicta enim.
         </section>
 
         <section id="menu" class="section">
@@ -118,5 +148,7 @@
         </section>
       </main>
     </div>
+
+    <script src="./libs/easy-toggler.min.js"></script>
   </body>
 </html>
