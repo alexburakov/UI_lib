@@ -121,30 +121,81 @@
 
         <section id="input" class="section">
           <h2 class="title">5. Поля ввода</h2>
+          <div class="field">
+            <input
+              type="text"
+              class="field__control"
+              placeholder="Введите ваше имя"
+            />
+          </div>
+          <div class="field">
+            <span class="field__icon">🔍</span>
+            <input type="text" class="field__control" placeholder="Поиск..." />
+          </div>
         </section>
 
         <section id="menu" class="section">
           <h2 class="title">6. Меню сайта</h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          delectus, unde illo quam omnis quod, iste mollitia, rem possimus cum
-          doloribus quas. Consectetur similique, qui dolores illo sunt labore
-          facilis?
-        </section>
 
-        <section id="modal" class="section">
-          <h2 class="title">7. Модальное окно</h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore
-          fugit nam, excepturi corrupti nostrum impedit est ad pariatur commodi!
-          Aliquam alias amet soluta provident, non architecto vero ea
-          voluptatibus!
+          <nav class="menubar">
+            <a href="#" class="menubar__brand">Logo</a>
+            <ul class="menubar__nav">
+              <li><a href="#" class="menubar__nav-link">О компании</a></li>
+              <li><a href="#" class="menubar__nav-link">Услуги</a></li>
+              <li><a href="#" class="menubar__nav-link">Отзывы</a></li>
+              <li><a href="#" class="menubar__nav-link">Кейсы</a></li>
+              <li><a href="#" class="menubar__nav-link">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <nav class="menubar menubar--light">
+            <a href="#" class="menubar__brand">Logo</a>
+            <ul class="menubar__nav">
+              <li><a href="#" class="menubar__nav-link">О компании</a></li>
+              <li><a href="#" class="menubar__nav-link">Услуги</a></li>
+              <li><a href="#" class="menubar__nav-link">Отзывы</a></li>
+              <li><a href="#" class="menubar__nav-link">Кейсы</a></li>
+              <li><a href="#" class="menubar__nav-link">Контакты</a></li>
+            </ul>
+          </nav>
         </section>
 
         <section id="card" class="section">
           <h2 class="title">8. Карточки</h2>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, nam
-          dignissimos! Nobis, fuga pariatur! Dolor sequi odio voluptatibus quam
-          totam veritatis atque id pariatur incidunt, quod a consequatur et
-          reiciendis?
+          <a href="#">
+            <article class="card">
+              <img src="./img/post.png" alt="" class="card__image" />
+              <div class="card__body">
+                <h3 class="card__title">Текст c заголовком карточки</h3>
+                <ul class="card__params">
+                  <li><span>👁️‍🗨️</span>3,4k</li>
+                  <li><span>♾️</span>233</li>
+                  <li><span>🗓️</span><time>28 мая 2023 годв</time></li>
+                </ul>
+                <p class="card__text">
+                  Пакистанский киберспортсмен Саид 'SumaiL' Самаил Хассан
+                  присоединился к составу Nigma Galaxy по Dota 2.
+                </p>
+                <span class="btn">Читать</span>
+              </div>
+            </article>
+          </a>
+          <br /><br />
+          <a href="#">
+            <article
+              class="card-v2"
+              style="background-image: url('./img/post.png')"
+            >
+              <div class="vard-v2__body">
+                <h3 class="card-v2__title">Текст c заголовком карточки</h3>
+                <ul class="card-v2__params">
+                  <li><span>👁️‍🗨️</span>3,4k</li>
+                  <li><span>♾️</span>233</li>
+                  <li><span>🗓️</span><time>28 мая 2023 годв</time></li>
+                </ul>
+              </div>
+            </article>
+          </a>
         </section>
       </main>
     </div>

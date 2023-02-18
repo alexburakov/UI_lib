@@ -7,6 +7,7 @@
   border-radius: 10px;
   line-height: 27px;
   user-select: none;
+  text-align: center;
   transition: background 100ms ease-in-out;
   border: none;
 }

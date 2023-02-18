@@ -45,3 +45,18 @@ button {
   font-family: inherit;
   font-size: inherit;
 }
+
+input {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
